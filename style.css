@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 18pt;
+}
+
+header, footer {
+  min-height: 10vh;
+  text-align: center;
+}
+
+h1 {
+  color: #ff2800;
+}
+
+header h1 {
+  border-bottom: 5px double black;
+  display: inline;
+}
+main {
+  flex-grow: 1;
+}
